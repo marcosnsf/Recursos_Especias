@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header{
+    border: 1px solid red;
+    background-color: #f2f2f2;
+    padding: 8px;
+}
+nav{
+    border: 1px solid green;
+    background-color: green;
+    padding: 8px;
+   
+}
+nav ul{
+    position: relative;
+    left:60px;
+}
+nav li{
+    display: inline;
+    padding: 8px 4px;
+    font-size: 20px;
+    text-transform: uppercase;
+    color: white;
+}
+nav a{
+    text-decoration: none;
+    color: white;
+    padding: 4px;
+    
+}
+nav a:hover{
+    background-color: white;
+    color: black;
+    border-radius: 0.5em;
+    transition: 0.1s;
+}
+
+article{
+    background-color: orange;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+article h3{
+    width: 100%;
+    position: relative;
+    padding: 16px 0;
+    text-align: center;
+}
+section{
+    position: relative;
+    border: black 1px dotted;
+    margin:  20px;
+    width: 300px;
+    width: 300px;
+    bottom:10px;
+   
+}
+section h4{
+    padding: 8px 0;
+    font-size:18px;
+    text-align: center;
+}
+section p {
+    padding: 0 8px 8px;
+    text-align: justify;
+    letter-spacing: 1px;
+}
+
+
+time{
+    font-weight: bold;
+}
+aside{
+    width: 100%;
+    border: black 1px solid;
+    background: #ccc;
+    padding: 20px 10px 20px;
+}
+aside h4{
+    width: 10%;
+   float: left;
+
+}
+aside p{
+    width: 90%;
+    float: right;
+}
+
+
+footer{
+    clear: both;
+    border: blue solid 1px;
+    background-color: blue;
+}
+footer p{
+    color: white;
+    padding: 8px 4px;
+    text-align: center;
+}
