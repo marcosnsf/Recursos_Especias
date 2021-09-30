@@ -11,15 +11,20 @@
     /* Flex direction: row | row-reverse | column | column-reverse */
     flex-wrap: nowrap ;
     /* nowrap | wrap | wrap-reverse*/
-    justify-content: center ;
+    justify-content: center;
     /* flex-start | flex-end | center | space-between | space-around */
-
+    align-items: center;
+    /* stretch | center | flex-start | flex-end |  baseline */
 }
 .item{
+    display: flex;
+    align-items: center;
+    justify-content: center;
     width: 100px;
     height: 100px;
     background-color: white;
     border:  2px dotted black;
+    border-radius: 0.5em;
     margin: 10px;
 
 }
