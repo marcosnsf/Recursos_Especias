@@ -12,14 +12,6 @@ h1{
     background-color: rgba(0, 0, 255,0.3);
     height: 400px;
     display: flex;
-    flex-direction: row;
-    /* Flex direction: row | row-reverse | column | column-reverse */
-    flex-wrap: wrap ;
-    /* nowrap | wrap | wrap-reversegit*/
-    justify-content:center;
-    /* flex-start | flex-end | center | space-between | space-around */
-    align-items: center;
-    /* stretch | center | flex-start | flex-end | baseline */
 }
 .item{
     width: 100px;
@@ -27,7 +19,29 @@ h1{
     background-color: white;
     border:  2px dotted black;
     margin: 10px;
-    font-size: 20pt;
-    display: flex;
-    justify-content:center ;
+
+    /* Define proporção de espaço ocupado por um item */
+    flex-grow: 1;
+    flex-shrink: 2;
 }
+.item1{
+    /* flex-grow: 1; */
+}
+
+/* ordenação de itens */
+/* .ordem{
+    order: -1;
+}
+
+.ordem1{
+    order: 1;
+}
+.ordem2{
+    order: 2;
+}
+.ordem3{
+    order: 3;
+}
+.ordem4{
+    order: 4;
+} */
