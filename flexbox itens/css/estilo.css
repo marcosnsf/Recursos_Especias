@@ -12,21 +12,39 @@ h1{
     background-color: rgba(0, 0, 255,0.3);
     height: 400px;
     display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .item{
-    width: 100px;
+    /* width: 200px; */
     height: 100px;
     background-color: white;
     border:  2px dotted black;
     margin: 10px;
 
     /* Define proporção de espaço ocupado por um item */
-    flex-grow: 1;
-    flex-shrink: 2;
+    flex-grow: 0;
+
+    /* Define a capacidade de redução de tamanho do item */
+    flex-shrink: 1;
+
+    /* Indica o tamanho inicial do flex item antes da distribuição do espaço restante */
+    flex-basis: 200px;
 }
 .item1{
-    /* flex-grow: 1; */
+   /* flex-grow: 1;  */
+   flex-shrink: 1;
 }
+.item2{
+    flex-grow: 1; 
+    flex-shrink: 2;
+}
+
+.item3{
+    flex-grow: 2; 
+    flex-shrink:5;
+}
+
 
 /* ordenação de itens */
 /* .ordem{
